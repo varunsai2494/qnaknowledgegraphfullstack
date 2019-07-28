@@ -1,0 +1,105 @@
+<div class="alert alert-dismissible alert-danger error-alert" ng-model="answerError" ng-show='answerError' ng-hide="!answerError" style="position: fixed;
+	bottom: 10px;
+	left: 50%; 
+	z-index:1000;
+	-webkit-transform: translate(-50%,0);
+	   -moz-transform: translate(-50%,0);
+	    -ms-transform: translate(-50%,0);
+	     -o-transform: translate(-50%,0);
+	        transform: translate(-50%,0);">
+	<button type="button" class="close" data-dismiss="alert">&times;</button>
+	<strong>Server Error!</strong> Could not fetch an answer.
+</div>	
+
+<div id="sample-questions-modal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Sample Questions</h4>
+      </div>
+      <div class="modal-body">
+      	<label for="samplequestions"> Select a Sample Question </label>
+        <div class="btn-group" style="width:100%;">
+		  <a href="#" class="btn btn-default" style="width:90%;">Select a Question</a>
+		  <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="width:10%;"><span class="caret"></span></a>
+		  <ul class="dropdown-menu" style="width:100%;">
+			<li><a>Who is the actor in Interstellar?</a></li>
+			<li><a>Who is the director of Batman Begins?</a></li>
+			<li><a>Who produced Inception?</a></li>
+			  <li><a>Who produced the movie Inception?</a></li>
+		  </ul>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container-fluid" style=" width: 80%; height: 500px; border:1px solid #ccc; padding-top: 25px;">
+	<div class="col-md-12">
+		<ul class="nav nav-tabs">
+		  <li class="active">
+			  <a data-target="#tab-question" data-toggle="tab" aria-expanded="true">Ask a Question</a>
+		  </li>
+		  <li>
+			  <a data-target="#tab-review" data-toggle="tab" aria-expanded="false">Update a Review</a>
+		  </li>
+		  <li>
+			  <a data-target="#tab-demo" data-toggle="tab" aria-expanded="false">View Demo Graph</a>
+		  </li>
+		</ul>
+		<div id="knowledge-tab-content" class="tab-content">
+			<div class="tab-pane fade active in" id="tab-question">
+				<form ng-submit="getAnswer(userQuestion)">
+					<br>
+					<h3> Ask a question here <i id="sample-questions-toggle" class="fa fa-question-circle" aria-hidden="true" data-toggle="modal" data-target="#sample-questions-modal"></i></h3> 
+					<div class="form-group">
+					  <input class="form-control" id="user-question" type="text" placeholder="Enter a Question" ng-model="userQuestion">
+					</div>
+					<button class="btn btn-primary center-block" type="submit"> Get Answer</button>
+					<div class="answer-display" style="overflow-y:auto; padding:10px;">
+					{{userAnswer}}
+					</div>
+				</form>	
+			</div>
+			<div class="tab-pane fade" id="tab-review">
+				<form class="form-horizontal" ng-submit="updateKnowledge(userReview)">
+					<fieldset>
+						<br>
+						<h2> Update a review here: </h2>
+						<br>
+						<div class="form-group">
+							<div class="col-lg-12">
+								<textarea class="form-control" rows="3" style="width: 100%;" ng-model="userReview"></textarea>
+							</div>
+						</div>
+						<br>
+						<div class="form-group">
+							<div class=" col-md-12 center-block">
+								<button type="submit" class="btn btn-primary">Submit</button>
+								<button type="reset" class="btn btn-danger">Reset</button>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+				<br>
+				<div class="knowledge-update-alert alert alert-dismissible alert-success" ng-model="updateSuccess" ng-show='updateSuccess' ng-hide="!updateSuccess">
+				  <button type="button" class="close" data-dismiss="alert">&times;</button>
+				  <strong>Review Added!</strong> Graph has been updated successfully.
+				</div>
+				<div class="knowledge-update-alert alert alert-dismissible alert-danger" ng-model="updateFail" ng-show='updateFail' ng-hide="!updateFail">
+				  <button type="button" class="close" data-dismiss="alert">&times;</button>
+				  <strong> Update Error!</strong> Could not update graph due to unclear information.
+				</div>
+			</div>
+			<div class="tab-pane fade" id="tab-demo">
+				<div style="position: relative; text-align: center;">
+					<br>
+					<h3> See a demo for the knowledge graph here : </h3>
+					<br>
+					<a id="graph-demo-link" href="http://35.164.231.42:7474" target="_blank"><i class="fa fa-globe" style="font-size: 200px;"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

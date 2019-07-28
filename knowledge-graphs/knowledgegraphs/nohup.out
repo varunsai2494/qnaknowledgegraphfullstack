@@ -1,0 +1,123 @@
+Traceback (most recent call last):
+  File "testfile.py", line 87, in <module>
+    appf.run(host="0.0.0.0", port=8000,debug=True, threaded=False)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 720, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Exception TypeError: TypeError("'NoneType' object is not callable",) in <bound method DirectDriver.__del__ of <neo4j.v1.direct.DirectDriver object at 0x7fbcecfd1e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method Connection.__del__ of <neo4j.bolt.connection.Connection object at 0x7fbcebe08a10>> ignored
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-246-443
+203.199.178.211 - - [08/Aug/2017 14:49:15] "POST /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:51:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:52:00] "POST /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 14:52:01] "POST /qna HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-246-443
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-246-443
+203.199.178.211 - - [08/Aug/2017 15:03:08] "GET / HTTP/1.1" 304 -
+203.199.178.211 - - [08/Aug/2017 15:03:08] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /css/knowledge-graph-main.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /bower_components/components-font-awesome/css/font-awesome.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /bower_components/angular-ui-select/dist/select.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /bower_components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:09] "GET /bower_components/angular-ui-select/dist/select.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:10] "GET /app.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:11] "GET /home.html HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:11] "GET /bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:15] "GET /bower_components/angular-ui-select/dist/select.min.js.map HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:17] "GET /bower_components/angular-ui-select/dist/select.min.css.map HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:03:24] "POST /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:08:03] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:09:37] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:10:02] "OPTIONS /qna HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-246-443
+203.199.178.211 - - [08/Aug/2017 15:42:40] "GET / HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:40] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /css/knowledge-graph-main.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /bower_components/components-font-awesome/css/font-awesome.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /bower_components/angular-ui-select/dist/select.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /bower_components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /app.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:41] "GET /bower_components/angular-ui-select/dist/select.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:43] "GET /home.html HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:42:44] "GET /bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+183.83.195.46 - - [08/Aug/2017 15:43:02] "OPTIONS /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:45:29] "GET / HTTP/1.1" 304 -
+203.199.178.211 - - [08/Aug/2017 15:45:29] "GET /bower_components/angular-ui-select/dist/select.min.js.map HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 181, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+203.199.178.211 - - [08/Aug/2017 15:45:29] "GET /bower_components/angular-ui-select/dist/select.min.css.map HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:45:29] "GET /bower_components/angular-ui-select/dist/select.min.js.map HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:45:30] "GET /bower_components/angular-ui-select/dist/select.min.css.map HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 138-246-443
+203.199.178.211 - - [08/Aug/2017 15:48:44] "GET / HTTP/1.1" 304 -
+203.199.178.211 - - [08/Aug/2017 15:49:26] "GET / HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:27] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /css/knowledge-graph-main.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /bower_components/angular-ui-select/dist/select.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /bower_components/components-font-awesome/css/font-awesome.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /bower_components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:28] "GET /bower_components/angular-ui-select/dist/select.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:29] "GET /app.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:30] "GET /home.html HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:31] "GET /bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:44] "GET / HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:44] "POST /qna HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:55] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:56] "GET /bower_components/components-font-awesome/css/font-awesome.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:56] "GET /css/knowledge-graph-main.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:56] "GET /bower_components/angular-ui-select/dist/select.min.css HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:56] "GET /bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+203.199.178.211 - - [08/Aug/2017 15:49:58] "GET /bower_components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 -
+{u'text': u'who are the actors in interstellar'}
+shdflsdifgdx;
+<Response [200]>
+shdflsdifgdx;
+[['None', u'Movie', u'the dark knight'], ['christian bale', u'Person', None], ['michael caine', u'Person', None], ['heath ledger', u'Person', None], ['aaron eckhart', u'Person', None], ['gary oldman', u'Person', None], ['maggie gyllenhaal', u'Person', None], ['morgan freeman', u'Person', None], ['chin han', u'Person', None], ['eric roberts', u'Person', None], ['monique gabriela curnen', u'Person', None], ['ron dean', u'Person', None], ['nestor carbonell', u'Person', None], ['ritchie coster', u'Person', None], ['anthony michael hall', u'Person', None], ['cillian murphy', u'Person', None], ['keith szarabajka', u'Person', None], ['joshua harto', u'Person', None], ['colin mcfarlane', u'Person', None], ['michael jai white', u'Person', None], ['melinda mcgraw', u'Person', None], ['william fichtner', u'Person', None], ['david dastmalchian', u'Person', None], ['nathan gamble', u'Person', None], ['william smillie', u'Person', None], ['danny goldring', u'Person', None], ['michael stoyanov', u'Person', None], ['beatrice rosen', u'Person', None], ["tommy 'tiny' lister", u'Person', None], ['matthew leitch', u'Person', None], ['amit shah', u'Person', None], ['michael vieau', u'Person', None], ['olumiji olawumi', u'Person', None], ['vincenzo nicoli', u'Person', None], ['edison chen', u'Person', None], ['will zahrn', u'Person', None], ['patrick leahy', u'Person', None], ['patrick clear', u'Person', None], ['sarah jayne dunn', u'Person', None], ['charles venn', u'Person', None], ['winston g. ellis', u'Person', None], ['keith kupferer', u'Person', None], ['richard dillane', u'Person', None], ['philip bulcock', u'Person', None], ['paul birchard', u'Person', None], ['vincent riotta', u'Person', None], ['k. todd freeman', u'Person', None], ['matt shallenberger', u'Person', None], ['matt rippy', u'Person', None], ['andrew bicknell', u'Person', None], ['ariyon bakare', u'Person', None], ['doug ballard', u'Person', None], ['tommy campbell', u'Person', None], ['craig heaney', u'Person', None], ['lorna gayle', u'Person', None], ['lisa mcallister', u'Person', None], ['peter brooke', u'Person', None], ['thomas gaitsch', u'Person', None], ['william armstrong', u'Person', None], ['tristan tait', u'Person', None], ['bronson webb', u'Person', None], ['david ajala', u'Person', None], ['jonathan ryland', u'Person', None], ['ian pirie', u'Person', None], ['lateef lovejoy', u'Person', None], ['grahame edwards', u'Person', None], ['roger monk', u'Person', None], ['ronan summers', u'Person', None], ['jon lee brody', u'Person', None], ['debbi burns', u'Person', None], ['maritza cabrera', u'Person', None], ['shirin caiola', u'Person', None], ['laura chernicky', u'Person', None], ['erik a. williams', u'Person', None], ['kelli clevenger', u'Person', None], ['richard divizio', u'Person', None], ['tony domino', u'Person', None], ['david fultz', u'Person', None], ['natalie hallam', u'Person', None], ['jordon hodges', u'Person', None], ['erron jay', u'Person', None], ['peter rnic', u'Person', None], ['daniel jefferson', u'Person', None], ['nicky katt', u'Person', None], ['thomas kosik', u'Person', None], ['tom townsend', u'Person', None], ['don kress', u'Person', None], ['tim krueger', u'Person', None], ['dan latham', u'Person', None], ['james mellor', u'Person', None], ['joseph oliveira', u'Person', None], ['buster reeves', u'Person', None], ['michelle shields', u'Person', None], ['sofiya smirnova', u'Person', None], ['bruce spielbauer', u'Person', None], ['robert patrick stern', u'Person', None], ['robert stone', u'Person', None], ['richard strobel', u'Person', None], ['john turk', u'Person', None], ['john warman', u'Person', None], ['chris wilson', u'Person', None], ['kevin zaideman', u'Person', None], ['henry milton chu', u'Person', None], ['tom mccomas', u'Person', None], ['christopher nolan', u'Person', None], ['jonathan nolan', u'Person', None], ['hans zimmer', u'Person', None], ['wally pfister', u'Person', None], ['james newton howard', u'Person', None], ['charles roven', u'Person', None], ['emma thomas', u'Person', None], ['david s. goyer', u'Person', None], ['thomas tull', u'Person', None], ['michael uslan', u'Person', None], ['kevin de la noy', u'Person', None], ['benjamin melniker', u'Person', None], ['lee smith', u'Person', None], ['nathan crowley', u'Person', None], ['peter lando', u'Person', None], ['john papsidera', u'Person', None], ['lindy hemming', u'Person', None], ['mark bartholomew', u'Person', None], ['james hambidge', u'Person', None], ['craig jackson', u'Person', None], ['kevin kavanaugh', u'Person', None], ['simon lamont', u'Person', None], ['steven lawrence', u'Person', None], ['naaman marshall', u'Person', None], ['janice alexander', u'Person', None], ['deena adair', u'Person', None], ['sue robb-king', u'Person', None], ['john caglione jr.', u'Person', None], ['nancy hancock', u'Person', None], ['jenne lee', u'Person', None], ['nicholas gall', u'Person', None], ['lucinda syson', u'Person', None], ['steve gehrke', u'Person', None], ['richard m. daley', u'Person', None], ['jessie graff', u'Person', None], ['bill finger', u'Person', None], ['jerry robinson', u'Person', None], ['brad dechter', u'Person', None], ['alyson dee moore', u'Person', None], ['dennis davidson', u'Person', None], ['kimberley spiteri', u'Person', None], ['stephen vaughan', u'Person', None], ['alex gibson', u'Person', None], ['daniel pinder', u'Person', None], ['richard king', u'Person', None], ['ed novick', u'Person', None], ['lora hirschberg', u'Person', None], ['gary rizzo', u'Person', None], ['michael magill', u'Person', None], ['hugo weng', u'Person', None], ['michael w. mitchell', u'Person', None], ['michael babcock', u'Person', None], ['bob gorelick', u'Person', None], ['tom struthers', u'Person', None], ['paul jennings', u'Person', None], ['rick le fevour', u'Person', None], ['david orr', u'Person', None], ['jim wilkey', u'Person', None], ['mark mottram', u'Person', None], ['lorne orleans', u'Person', None], ['nilo otero', u'Person', None], ['jeff atmajian', u'Person', None]]
+['the dark knight']
+[]
+['                              shdflsdifgdx;                              ']
+['                              shdflsdifgdx;                              ']
+[['None', u'Movie', u'the dark knight'], ['christian bale', u'Person', None], ['michael caine', u'Person', None], ['heath ledger', u'Person', None], ['aaron eckhart', u'Person', None], ['gary oldman', u'Person', None], ['maggie gyllenhaal', u'Person', None], ['morgan freeman', u'Person', None], ['chin han', u'Person', None], ['eric roberts', u'Person', None], ['monique gabriela curnen', u'Person', None], ['ron dean', u'Person', None], ['nestor carbonell', u'Person', None], ['ritchie coster', u'Person', None], ['anthony michael hall', u'Person', None], ['cillian murphy', u'Person', None], ['keith szarabajka', u'Person', None], ['joshua harto', u'Person', None], ['colin mcfarlane', u'Person', None], ['michael jai white', u'Person', None], ['melinda mcgraw', u'Person', None], ['william fichtner', u'Person', None], ['david dastmalchian', u'Person', None], ['nathan gamble', u'Person', None], ['william smillie', u'Person', None], ['danny goldring', u'Person', None], ['michael stoyanov', u'Person', None], ['beatrice rosen', u'Person', None], ["tommy 'tiny' lister", u'Person', None], ['matthew leitch', u'Person', None], ['amit shah', u'Person', None], ['michael vieau', u'Person', None], ['olumiji olawumi', u'Person', None], ['vincenzo nicoli', u'Person', None], ['edison chen', u'Person', None], ['will zahrn', u'Person', None], ['patrick leahy', u'Person', None], ['patrick clear', u'Person', None], ['sarah jayne dunn', u'Person', None], ['charles venn', u'Person', None], ['winston g. ellis', u'Person', None], ['keith kupferer', u'Person', None], ['richard dillane', u'Person', None], ['philip bulcock', u'Person', None], ['paul birchard', u'Person', None], ['vincent riotta', u'Person', None], ['k. todd freeman', u'Person', None], ['matt shallenberger', u'Person', None], ['matt rippy', u'Person', None], ['andrew bicknell', u'Person', None], ['ariyon bakare', u'Person', None], ['doug ballard', u'Person', None], ['tommy campbell', u'Person', None], ['craig heaney', u'Person', None], ['lorna gayle', u'Person', None], ['lisa mcallister', u'Person', None], ['peter brooke', u'Person', None], ['thomas gaitsch', u'Person', None], ['william armstrong', u'Person', None], ['tristan tait', u'Person', None], ['bronson webb', u'Person', None], ['david ajala', u'Person', None], ['jonathan ryland', u'Person', None], ['ian pirie', u'Person', None], ['lateef lovejoy', u'Person', None], ['grahame edwards', u'Person', None], ['roger monk', u'Person', None], ['ronan summers', u'Person', None], ['jon lee brody', u'Person', None], ['debbi burns', u'Person', None], ['maritza cabrera', u'Person', None], ['shirin caiola', u'Person', None], ['laura chernicky', u'Person', None], ['erik a. williams', u'Person', None], ['kelli clevenger', u'Person', None], ['richard divizio', u'Person', None], ['tony domino', u'Person', None], ['david fultz', u'Person', None], ['natalie hallam', u'Person', None], ['jordon hodges', u'Person', None], ['erron jay', u'Person', None], ['peter rnic', u'Person', None], ['daniel jefferson', u'Person', None], ['nicky katt', u'Person', None], ['thomas kosik', u'Person', None], ['tom townsend', u'Person', None], ['don kress', u'Person', None], ['tim krueger', u'Person', None], ['dan latham', u'Person', None], ['james mellor', u'Person', None], ['joseph oliveira', u'Person', None], ['buster reeves', u'Person', None], ['michelle shields', u'Person', None], ['sofiya smirnova', u'Person', None], ['bruce spielbauer', u'Person', None], ['robert patrick stern', u'Person', None], ['robert stone', u'Person', None], ['richard strobel', u'Person', None], ['john turk', u'Person', None], ['john warman', u'Person', None], ['chris wilson', u'Person', None], ['kevin zaideman', u'Person', None], ['henry milton chu', u'Person', None], ['tom mccomas', u'Person', None], ['christopher nolan', u'Person', None], ['jonathan nolan', u'Person', None], ['hans zimmer', u'Person', None], ['wally pfister', u'Person', None], ['james newton howard', u'Person', None], ['charles roven', u'Person', None], ['emma thomas', u'Person', None], ['david s. goyer', u'Person', None], ['thomas tull', u'Person', None], ['michael uslan', u'Person', None], ['kevin de la noy', u'Person', None], ['benjamin melniker', u'Person', None], ['lee smith', u'Person', None], ['nathan crowley', u'Person', None], ['peter lando', u'Person', None], ['john papsidera', u'Person', None], ['lindy hemming', u'Person', None], ['mark bartholomew', u'Person', None], ['james hambidge', u'Person', None], ['craig jackson', u'Person', None], ['kevin kavanaugh', u'Person', None], ['simon lamont', u'Person', None], ['steven lawrence', u'Person', None], ['naaman marshall', u'Person', None], ['janice alexander', u'Person', None], ['deena adair', u'Person', None], ['sue robb-king', u'Person', None], ['john caglione jr.', u'Person', None], ['nancy hancock', u'Person', None], ['jenne lee', u'Person', None], ['nicholas gall', u'Person', None], ['lucinda syson', u'Person', None], ['steve gehrke', u'Person', None], ['richard m. daley', u'Person', None], ['jessie graff', u'Person', None], ['bill finger', u'Person', None], ['jerry robinson', u'Person', None], ['brad dechter', u'Person', None], ['alyson dee moore', u'Person', None], ['dennis davidson', u'Person', None], ['kimberley spiteri', u'Person', None], ['stephen vaughan', u'Person', None], ['alex gibson', u'Person', None], ['daniel pinder', u'Person', None], ['richard king', u'Person', None], ['ed novick', u'Person', None], ['lora hirschberg', u'Person', None], ['gary rizzo', u'Person', None], ['michael magill', u'Person', None], ['hugo weng', u'Person', None], ['michael w. mitchell', u'Person', None], ['michael babcock', u'Person', None], ['bob gorelick', u'Person', None], ['tom struthers', u'Person', None], ['paul jennings', u'Person', None], ['rick le fevour', u'Person', None], ['david orr', u'Person', None], ['jim wilkey', u'Person', None], ['mark mottram', u'Person', None], ['lorne orleans', u'Pers203.199.178.211 - - [08/Aug/2017 15:49:58] "POST /updategraph HTTP/1.1" 200 -
+on', None], ['nilo otero', u'Person', None], ['jeff atmajian', u'Person', None]]
+[[]]
+[[[], [], [], None]]
+
+Exception TypeError: TypeError("'NoneType' object is not callable",) in <bound method DirectDriver.__del__ of <neo4j.v1.direct.DirectDriver object at 0x7f6cb380fe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method Connection.__del__ of <neo4j.bolt.connection.Connection object at 0x7f6cb262ca10>> ignored
+Exception TypeError: TypeError("'NoneType' object is not callable",) in <bound method DirectDriver.__del__ of <neo4j.v1.direct.DirectDriver object at 0x7fe05455ae10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method Connection.__del__ of <neo4j.bolt.connection.Connection object at 0x7fe053377a10>> ignored

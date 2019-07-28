@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Neo4j - Bolt Protocol Version 1
+Implementation-Version: 3.2.2
+Archiver-Version: Plexus Archiver
+Built-By: teamcity
+Implementation-Vendor-Id: org.neo4j
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+Url: http://neo4j.org/
+Implementation-Vendor: The Neo4j Graph Database Project
+
